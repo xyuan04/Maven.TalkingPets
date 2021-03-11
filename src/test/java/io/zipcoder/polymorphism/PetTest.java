@@ -12,7 +12,7 @@ public class PetTest {
 
         // When
         String expectedName = "Java wrapper";
-        String actualName = mouse.getName();
+        String actualName = pet.getName();
 
         // Then
         Assert.assertEquals(expectedName, actualName);

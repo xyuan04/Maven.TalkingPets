@@ -8,9 +8,10 @@ public class DogTest {
     @Test
     public void dogConstructorTest() {
         // Given
-        Dog dog = new Dog(expectedName);
+
         String expectedName = "dog name";
         String expectedType = "dog";
+        Dog dog = new Dog(expectedName);
 
 
         // When
