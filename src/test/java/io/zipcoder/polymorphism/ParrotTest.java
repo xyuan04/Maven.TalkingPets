@@ -2,8 +2,8 @@ package io.zipcoder.polymorphism;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-public class ParrotTest extends Pet {
+// Made by Mike Ninh
+public class ParrotTest{
 
     @Test
     public void parrotConstructorTest() {
