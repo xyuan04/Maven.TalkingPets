@@ -17,11 +17,10 @@ public class CatTest {
         String actualType = cat.getType();
 
 
-
         // Then
         Assert.assertEquals(expectedName, actualName);
         Assert.assertEquals(expectedType, actualType);
-
+    }
 
         @Test
         public void getNameTest(){
@@ -39,4 +38,4 @@ public class CatTest {
             Assert.assertEquals(expectedSpeak, actualSpeak);
         }
     }
-}
+

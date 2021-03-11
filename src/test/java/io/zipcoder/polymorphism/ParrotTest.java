@@ -8,20 +8,20 @@ public class ParrotTest{
     @Test
     public void parrotConstructorTest() {
         // Given
+        Parrot parrot = new Parrot();
         String expectedName = "Parrot name";
         String expectedType = "parrot";
-        Parrot parrot = new Parrot();
+
 
         // When
         String actualName = parrot.getName();
         String actualType = parrot.getType();
 
 
-
         // Then
         Assert.assertEquals(expectedName, actualName);
         Assert.assertEquals(expectedType, actualType);
-
+    }
 
         @Test
         public void getNameTest(){
@@ -39,5 +39,5 @@ public class ParrotTest{
             Assert.assertEquals(expectedSpeak, actualSpeak);
         }
     }
-}
+
 

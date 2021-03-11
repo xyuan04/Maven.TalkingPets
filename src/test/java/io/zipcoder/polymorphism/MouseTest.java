@@ -17,11 +17,10 @@ public class MouseTest {
         String actualType = mouse.getType();
 
 
-
         // Then
         Assert.assertEquals(expectedName, actualName);
         Assert.assertEquals(expectedType, actualType);
-
+    }
 
     @Test
     public void getNameTest(){
@@ -39,4 +38,3 @@ public class MouseTest {
         Assert.assertEquals(expectedSpeak, actualSpeak);
     }
     }
-}
