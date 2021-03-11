@@ -8,7 +8,7 @@ public class PetTest {
     public void nullConstructorTest() {
 
         // Given
-        Pet pet = new Pet()
+        Pet pet = new Pet();
 
         // When
         String expectedName = "Java wrapper";
@@ -23,7 +23,7 @@ public class PetTest {
 
         // Given
         String expectedName = "Rocky";
-        Pet pet = new Pet(expectedName)
+        Pet pet = new Pet(expectedName);
 
         // When
 
@@ -40,7 +40,7 @@ public class PetTest {
             Pet pet = new Pet(name);
 
             // : When
-            String expected = "What's up doc?"
+            String expected = "What's up doc?";
             String actual = pet.speak();
 
             // : Then
