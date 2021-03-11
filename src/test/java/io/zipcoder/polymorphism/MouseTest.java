@@ -32,7 +32,7 @@ public class MouseTest {
 
     @Test
     public void speakTest(){
-        Mouse mouse = new Cat("Jerry", "mouse");
+        Mouse mouse = new Mouse("Jerry", "mouse");
         String expectedSpeak = "Squeak!";
         String actualSpeak = mouse.speak();
         Assert.assertEquals(expectedSpeak, actualSpeak);
