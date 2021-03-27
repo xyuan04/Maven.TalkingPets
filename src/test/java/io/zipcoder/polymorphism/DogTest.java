@@ -11,7 +11,7 @@ public class DogTest {
 
         String expectedName = "dog name";
         String expectedType = "dog";
-        Dog dog = new Dog(expectedName);
+        Dog dog = new Dog(expectedName, expectedType);
 
 
         // When

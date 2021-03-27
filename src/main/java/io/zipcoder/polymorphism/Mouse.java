@@ -15,6 +15,7 @@ public class Mouse extends Pet {
         super.type = "mouse";
     }
 
+    @Override
     public String speak() {
         return "Squeak!";
     }

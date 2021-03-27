@@ -1,9 +1,13 @@
 package io.zipcoder.polymorphism;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class MainApplication {
+
+    public static void main(String[] args) {
+        Engine engine = new Engine();
+
+        engine.runApp();
+    }
+
 }
 
 
